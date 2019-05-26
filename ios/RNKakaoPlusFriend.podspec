@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "RNKakaoPlusFriend"
   s.description  = <<-DESC
-  s.source       = { :path => '.' }
+  s.source = { :path => '.' }
                   RNKakaoPlusFriend
                    DESC
   s.homepage     = "https://github.com/author/RNKakaoPlusFriend.git"
@@ -13,13 +13,12 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "author@domain.cn" }
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/author/RNKakaoPlusFriend.git", :tag => "master" }
-  s.source_files  = "RNKakaoPlusFriend/**/*.{h,m}"
+  s.source_files  = "*.{h,m}"
   s.requires_arc = true
-
+  s.vendored_frameworks = 'KakaoPlusFriend.framework'
 
   s.dependency "React"
   #s.dependency "others"
 
 end
 
-  
