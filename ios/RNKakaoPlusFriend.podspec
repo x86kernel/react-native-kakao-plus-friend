@@ -4,9 +4,10 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "RNKakaoPlusFriend"
   s.description  = <<-DESC
+  s.source       = { :path => '.' }
                   RNKakaoPlusFriend
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/author/RNKakaoPlusFriend.git"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "author@domain.cn" }
